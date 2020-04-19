@@ -50,6 +50,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Domain\Class1.cs" />
+    <Compile Include="Domain\KeyBoard.cs" />
+    <Compile Include="Domain\PianoKey.cs" />
     <Compile Include="Domain\Sintezator.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -57,7 +59,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Infrastructure\DefaultMidiDevice.cs" />
     <Compile Include="Infrastructure\Player.cs" />
+    <Compile Include="PianoKeyBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
