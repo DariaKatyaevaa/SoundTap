@@ -16,7 +16,7 @@ namespace SoundTap
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PianoKeyBoard());
+            Application.Run(new PianoKeyBoardForm());
         }
     }
 }

@@ -49,10 +49,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Domain\Class1.cs" />
     <Compile Include="Domain\KeyBoard.cs" />
+    <Compile Include="Domain\NoteExtention.cs" />
+    <Compile Include="Domain\NoteOffset.cs" />
     <Compile Include="Domain\PianoKey.cs" />
+    <Compile Include="Domain\PianoNote.cs" />
     <Compile Include="Domain\Sintezator.cs" />
+    <Compile Include="Domain\NoteName.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,7 +64,8 @@
     </Compile>
     <Compile Include="Infrastructure\DefaultMidiDevice.cs" />
     <Compile Include="Infrastructure\Player.cs" />
-    <Compile Include="PianoKeyBoard.cs">
+    <Compile Include="Domain\Note.cs" />
+    <Compile Include="PianoKeyBoardForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Program.cs" />
